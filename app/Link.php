@@ -9,7 +9,7 @@ class Link extends Model
     protected $guarded = [];
     public $timestamps = false;
 
-    public function company()
+    public function image()
     {
         return $this->belongsTo(Image::class);
     }
